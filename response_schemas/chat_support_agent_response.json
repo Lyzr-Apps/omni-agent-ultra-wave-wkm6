@@ -1,0 +1,28 @@
+{
+  "agent_name": "Chat Support Agent",
+  "agent_id": "6993bbeb798fe23bc479a7e4",
+  "description": "Handles text-based customer queries by searching the business knowledge base, providing answers, and creating HubSpot tickets for unresolved or escalated issues",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "message": "string",
+    "ticket_created": "boolean",
+    "ticket_id": "string",
+    "ticket_subject": "string",
+    "sources_used": [
+      "string"
+    ],
+    "needs_escalation": "boolean"
+  },
+  "example_response": {
+    "message": "The agent response message to the customer",
+    "ticket_created": false,
+    "ticket_id": "The HubSpot ticket ID if created",
+    "ticket_subject": "Subject of the created ticket",
+    "sources_used": [
+      "sample string"
+    ],
+    "needs_escalation": false
+  }
+}

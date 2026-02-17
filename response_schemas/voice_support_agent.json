@@ -1,0 +1,18 @@
+{
+  "agent_name": "Voice Support Agent",
+  "agent_id": "6993bbfd28f956cd38c67036",
+  "agent_type": "voice",
+  "accessor": "voice",
+  "has_module_outputs": false,
+  "has_voice_config": true,
+  "has_knowledge_base": true,
+  "rag_id": "6993bbca869797813b09b4ec",
+  "schema": {
+    "message": "string",
+    "ticket_created": "boolean",
+    "ticket_id": "string",
+    "ticket_subject": "string",
+    "sources_used": "string[]",
+    "needs_escalation": "boolean"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "agent_name": "Voice Support Agent",
+  "agent_id": "6993bbfd28f956cd38c67036",
+  "description": "Handles voice-based customer calls, answers spoken queries using the business knowledge base, and creates HubSpot tickets for issues requiring follow-up",
+  "agent_type": "voice",
+  "accessor": "websocket",
+  "auto_generated": true
+}

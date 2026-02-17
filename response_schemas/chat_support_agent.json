@@ -1,0 +1,18 @@
+{
+  "agent_name": "Chat Support Agent",
+  "agent_id": "6993bbeb798fe23bc479a7e4",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "has_voice_config": false,
+  "has_knowledge_base": true,
+  "rag_id": "6993bbca869797813b09b4ec",
+  "schema": {
+    "message": "string",
+    "ticket_created": "boolean",
+    "ticket_id": "string",
+    "ticket_subject": "string",
+    "sources_used": "string[]",
+    "needs_escalation": "boolean"
+  }
+}

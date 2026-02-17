@@ -1,0 +1,32 @@
+{
+  "nodes": [
+    {
+      "id": "input_node",
+      "type": "Input",
+      "label": "Customer Query",
+      "nodeCategory": "input"
+    },
+    {
+      "id": "chat_agent",
+      "type": "Agent",
+      "label": "Chat Support Agent",
+      "nodeCategory": "agent"
+    },
+    {
+      "id": "voice_agent",
+      "type": "Agent",
+      "label": "Voice Support Agent",
+      "nodeCategory": "agent"
+    }
+  ],
+  "edges": [
+    {
+      "source": "input_node",
+      "target": "chat_agent"
+    },
+    {
+      "source": "input_node",
+      "target": "voice_agent"
+    }
+  ]
+}
